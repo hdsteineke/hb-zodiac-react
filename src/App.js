@@ -1,6 +1,8 @@
-import './App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
+import Main from './Main.js';
+import { zodiacs } from './data.js';
+import './App.css';
 
 {/* import the zodiac array */}
 
@@ -12,8 +14,9 @@ function App() {
       <Header text='Alchemy Astrology'/>
 
       <main>
-        list of zodiacs
+        <Main zodiacs={zodiacs} />
       </main>
+
 
       
       <Footer text="Copyright Alchemy Codelab 2022"/>
