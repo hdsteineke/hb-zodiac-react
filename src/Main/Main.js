@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImg from '../background.png';
-import ZodiacCard from './ZodiacCard.js';
+import ZodiacCard from '../ZodiacCard/ZodiacCard.js';
 import './Main.css';
 
 export default function Main({ zodiacs }) {
