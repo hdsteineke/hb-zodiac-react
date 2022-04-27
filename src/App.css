@@ -10,3 +10,13 @@ body {
 body {
   background-color: var(--color1);
 }
+
+body, html, #root {
+  height: 100%;
+}
+
+.App {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 10% 80% 10%
+}
